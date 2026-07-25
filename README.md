@@ -39,12 +39,6 @@ The generated report includes:
 
 ---
 
-## 🏗️ Architecture
-
-![Architecture](images/architecture.png)
-
----
-
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
@@ -53,8 +47,8 @@ The generated report includes:
 | Streamlit | User Interface |
 | CrewAI | Multi-Agent Orchestration |
 | Gemini 2.5 Flash | Large Language Model |
-| Serper API | Web Search |
-| Google Gemini API | AI Responses |
+|Serper API | Company & Industry Information Retrieval|
+|Google Gemini API | AI Model Integration|
 
 ---
 
@@ -78,60 +72,6 @@ Gemini 2.5 Flash
       ▼
 Executive Meeting Brief
 ```
-
----
-
-## 📷 Application Screenshots
-
-### Home Page
-
-![Home](images/home.png)
-
----
-
-### Meeting Information
-
-![Input](images/input.png)
-
----
-
-### Generated Executive Brief
-
-![Output](images/output.png)
-
----
-
-## 📂 Project Structure
-
-```text
-AI-Meeting-Platform
-│
-├── meeting_agent.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── images
-    ├── home.png
-    ├── input.png
-    ├── output.png
-    └── architecture.png
-```
-
----
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/RakshaHathwarG/AI-meeting-platform.git
-
-cd AI-meeting-platform
-
-pip install -r requirements.txt
-
-streamlit run meeting_agent.py
-```
-
----
 
 ## 🔑 API Keys Required
 
