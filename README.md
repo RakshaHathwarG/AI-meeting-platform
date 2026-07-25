@@ -1,43 +1,145 @@
-## 📝 AI Meeting Preparation Agent
+# 🧠 AI Meeting Intelligence Platform
 
-### 🎓 FREE Step-by-Step Tutorial 
-**👉 [Click here to follow our complete step-by-step tutorial](https://www.theunwindai.com/p/build-multi-agent-ai-meeting-preparation-assistant) and learn how to build this from scratch with detailed code walkthroughs, explanations, and best practices.**
+> An AI-powered meeting preparation assistant that researches companies, analyzes industry trends, and generates executive-ready meeting briefs using multiple AI agents.
 
-This Streamlit application leverages multiple AI agents to create comprehensive meeting preparation materials. It uses OpenAI's GPT-4, Anthropic's Claude, and the Serper API for web searches to generate context analysis, industry insights, meeting strategies, and executive briefings.
+---
 
-### Features
+## 📖 Overview
 
-- Multi-agent AI system for thorough meeting preparation
-- Utilizes OpenAI's GPT-4 and Anthropic's Claude models
-- Web search capability using Serper API
-- Generates detailed context analysis, industry insights, meeting strategies, and executive briefings
+Preparing for an important business meeting often requires researching the company, understanding industry trends, planning an agenda, and anticipating possible questions.
 
-### How to get Started?
+This project automates the entire process using CrewAI agents powered by Google's Gemini 2.5 Flash model.
 
-1. Clone the GitHub repository
+The generated report includes:
 
-```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd advanced_ai_agents/single_agent_apps/ai_meeting_agent
+- Executive Summary
+- Company Background
+- Industry Insights
+- Meeting Agenda
+- Strategic Recommendations
+- Expected Questions & Answers
+
+---
+
+## ✨ Features
+
+✅ Company Research
+
+✅ Industry Analysis
+
+✅ Executive Meeting Brief
+
+✅ AI-generated Meeting Agenda
+
+✅ Strategic Recommendations
+
+✅ Potential Questions & Answers
+
+✅ Clean Streamlit User Interface
+
+---
+
+## 🏗️ Architecture
+
+![Architecture](images/architecture.png)
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend |
+| Streamlit | User Interface |
+| CrewAI | Multi-Agent Orchestration |
+| Gemini 2.5 Flash | Large Language Model |
+| Serper API | Web Search |
+| Google Gemini API | AI Responses |
+
+---
+
+## 🤖 AI Workflow
+
+```text
+User Inputs
+      │
+      ▼
+Meeting Context Agent
+      │
+      ▼
+Industry Research Agent
+      │
+      ▼
+CrewAI
+      │
+      ▼
+Gemini 2.5 Flash
+      │
+      ▼
+Executive Meeting Brief
 ```
-2. Install the required dependencies:
+
+---
+
+## 📷 Application Screenshots
+
+### Home Page
+
+![Home](images/home.png)
+
+---
+
+### Meeting Information
+
+![Input](images/input.png)
+
+---
+
+### Generated Executive Brief
+
+![Output](images/output.png)
+
+---
+
+## 📂 Project Structure
+
+```text
+AI-Meeting-Platform
+│
+├── meeting_agent.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── images
+    ├── home.png
+    ├── input.png
+    ├── output.png
+    └── architecture.png
+```
+
+---
+
+## 🚀 Installation
 
 ```bash
+git clone https://github.com/RakshaHathwarG/AI-meeting-platform.git
+
+cd AI-meeting-platform
+
 pip install -r requirements.txt
-```
-3. Get your Anthropic API Key
 
-- Sign up for an [Anthropic account](https://console.anthropic.com) (or the LLM provider of your choice) and obtain your API key.
-
-4. Get your SerpAPI Key
-
-- Sign up for an [Serper API account](https://serper.dev/) and obtain your API key.
-
-5. Get your OpenAI API Key
-
-- Sign up for an [OpenAI account](https://platform.openai.com/) (or the LLM provider of your choice) and obtain your API key.
-
-6. Run the Streamlit App
-```bash
 streamlit run meeting_agent.py
 ```
+
+---
+
+## 🔑 API Keys Required
+
+- Google Gemini API Key
+- Serper API Key
+
+---
+
+## 👩‍💻 Author
+
+Raksha Hathwar
